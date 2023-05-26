@@ -1,0 +1,14 @@
+{
+    "input": "\/data2\/fengyuan\/rawdata\/16s\/liuyuan\/test_classifier\/",
+    "FW_primer": "ACTCCTACGGGAGGCAGCA",
+    "RV_primer": "GGACTACHVGGGTWTCTAAT",
+    "outdir": "20210429_test3",
+    "trunclenf": 260,
+    "trunclenr": 200,
+    "dada_ref_taxonomy": "silva=132",
+    "qiime_ref_taxonomy": "silva=138",
+    "picrust": true,
+    "max_cpus": "",
+    "max_memory": "",
+    "max_time": ""
+}
