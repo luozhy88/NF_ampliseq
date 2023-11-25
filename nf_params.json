@@ -1,0 +1,17 @@
+{
+    "input":"all.csv",
+    "outdir": "results_multipleRuns_20231123",
+    "multiple_sequencing_runs":true,
+    "FW_primer": "ACTCCTACGGGAGGCAGCA",
+    "RV_primer": "GGACTACHVGGGTWTCTAAT",
+    "trunclenf": 260,
+    "trunclenr": 200,
+    "dada_ref_tax_custom":"/data/zhiyu/software/nfcore/singularity/silva_nr99_v138.1_wSpecies_train_set.fa.gz",
+    "dada_ref_tax_custom_sp":"/data/zhiyu/software/nfcore/singularity/silva_species_assignment_v138.1.fa.gz",
+    "dada_assign_taxlevels":"Kingdom,Phylum,Class,Order,Family,Genus,Species",
+    "cut_dada_ref_taxonomy": true,
+    "picrust": false,
+    "filter_ssu": "bac",
+    "max_cpus": 150,
+    "max_memory": "900.GB"
+}
