@@ -18,6 +18,6 @@ export NXF_SINGULARITY_CACHEDIR="/data/zhiyu/software/nfcore/singularity" #定�
 // 小鼠的 https://github.com/BenBeresfordJones/MGBC    https://zenodo.org/record/4836362/files/MGBC-26640_KrakenBracken.tar.gz?download=1  
 /data/zhiyu/software/nfcore/V2.7.0/nextflow run nf-core/ampliseq -r 2.7.0 -profile docker    --input_folder  /data/zhiyu/software/nfcore/V2.7.0/rawdata   --FW_primer ACTCCTACGGGAGGCAGCA   --RV_primer GGACTACHVGGGTWTCTAAT  --email 479321347@qq.com --picrust   --kraken2_ref_tax_custom /data/changrong/save_220T_user/changrong/MGBC/MGBC-26640_KrakenBracken  --kraken2_assign_taxlevels "D,P,C,O,F,G,S"  --extension "/*_R{1,2}_001.fastq.gz" --outdir results_M
 
-# V2.7.1
+# V2.7.1 33site
 /data/zhiyu/software/nfcore/V2.7.0/nextflow run /data/zhiyu/software/nfcore/V2.7.1/ampliseq   -profile singularity  -params-file nf_params.json 
 
