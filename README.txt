@@ -1,3 +1,13 @@
+# fq的信息表生成
+python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test2/yaoming_test2_49 B04.csv
+python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test4/yaoming_test4_49 B05.csv
+python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test5/yangming_test5_49 B08.csv
+python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test7/yaoming_test7 B09.csv
+python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test8/yaoming_test8_72 B11.csv
+cat *csv >all.tsv
+
+
+
 # NF_ampliseq 2.5.0
 https://github.com/nf-core/ampliseq  
 https://nf-co.re/docs/usage/installation
