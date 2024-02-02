@@ -1,3 +1,10 @@
+# nextflow, config添加如下信息来跑stratified的数据
+process {
+  withName: PICRUST {
+        ext.args = "-t epa-ng --remove_intermediate --stratified"
+  }
+}
+
 # fq的信息表生成
 python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test2/yaoming_test2_49 B04.csv
 python3 /home/yuafen/data/script/fastq_dir_to_samplesheet.py /data/yuafen/rawdata/16s/yaoming_test4/yaoming_test4_49 B05.csv
